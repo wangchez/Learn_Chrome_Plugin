@@ -1,0 +1,21 @@
+{
+   "manifest_version": 2,
+
+  "name": "Click it to update the url of the bookmark",
+  "description": "This extension is making for update the url of the bookmark when you are browsing for the current page",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "ClickToUpdate"
+  },  
+  //"background": {
+  //  "scripts": ["background.js"],
+  //  "persistent": false
+  //},
+  "permissions": [
+    "activeTab",
+    "bookmarks"
+  ]
+}
